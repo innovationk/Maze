@@ -1,0 +1,8 @@
+# torch 2.2.2 is the last PyTorch release with Intel-macOS wheels.
+# On Linux / Apple Silicon / CUDA you can use a newer torch together with a newer transformers.
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+# transformers 5.x needs torch>=2.6; 4.57 is the newest line that runs on torch 2.2 and ships SAM 2.
+transformers==4.57.6
+pillow>=10
